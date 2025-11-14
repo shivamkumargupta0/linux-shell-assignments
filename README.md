@@ -39,9 +39,10 @@ This tool is helpful for:
 ### 1️ Give execution permissions
 ```bash
 chmod +x backup_directory.sh
+```
 
-### Run the script
-```bash
+### 2 Run the script
+
 ./backup_directory.sh <directory_path>
 
 
