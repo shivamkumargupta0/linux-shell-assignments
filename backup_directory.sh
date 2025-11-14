@@ -3,7 +3,7 @@
 # Script Name : backup_directory.sh
 # Description : This script backs up a specified directory
 #               to a backup folder with a timestamp.
-# Author      : shivam kumr gupta
+# Author      : shivam kumar gupta
 
 # ====== VARIABLES ======
 SOURCE_DIR="$1"                     # Directory to back up (given as argument)
@@ -26,3 +26,4 @@ tar -czf "${BACKUP_DIR}/${BACKUP_NAME}" "$SOURCE_DIR"
 # ====== OUTPUT RESULT ======
 echo " Backup of '$SOURCE_DIR' completed successfully!"
 echo " Saved as: ${BACKUP_DIR}/${BACKUP_NAME}"
+
