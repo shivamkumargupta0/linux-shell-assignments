@@ -42,9 +42,9 @@ chmod +x backup_directory.sh
 ```
 
 ### 2 Run the script
-
+```bash
 ./backup_directory.sh <directory_path>
-
+```
 
 ## Script Description
 <table>
